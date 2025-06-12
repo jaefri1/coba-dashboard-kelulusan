@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 def show_eksplorasi():
-    st.title("📊 Eksplorasi Dataset Kelulusan Mahasiswa")
+    st.title(" Eksplorasi Dataset Kelulusan Mahasiswa")
 
     df = pd.read_csv("data/dataset_kelulusan_mahasiswa.csv")
 
