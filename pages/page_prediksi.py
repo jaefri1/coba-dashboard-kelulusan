@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 
 def show_prediksi():
-    st.title("🔮 Prediksi Kelulusan Mahasiswa")
+    st.title(" Prediksi Kelulusan Mahasiswa")
 
-    st.write("Silakan masukkan fitur-fitur berikut untuk memprediksi kelulusan:")
+    st.write("Silakan masukkan nilai berikut untuk memprediksi kelulusan:")
 
     umur = st.number_input("Umur", 17, 40, 21)
     ipk = st.slider("IPK", 0.0, 4.0, 2.5)
